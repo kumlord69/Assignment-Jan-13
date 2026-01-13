@@ -21,7 +21,7 @@ int main()
            printf("Invalid Value\n");
            break;
          }
-        printf("Enter '1' to continue voting or '0' to stop:\n ");
+        printf("Enter '1' to continue voting or '0' to stop: ");
         scanf("%d",&e);
         if(e == 0){
         break;
@@ -45,6 +45,6 @@ int main()
     else {
         printf("The election resulted in a TIE.\n");
     }
-
+    printf("------------------------\n");
     return 0; 
     }
